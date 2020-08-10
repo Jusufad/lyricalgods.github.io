@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" type="text/css" href="style2.css">
+		<body>	
+			<section>
+				<div class="container">
+					<div class="user signupbox">
+					<div class="formbox">
+						<form>
+							<h2>Create an account</h2>
+							<input type="text" name="" placeholder="Username">
+							<input type="email" name="" placeholder="email">
+							<input type="password" name="" placeholder="password">
+							<input type="password" name="" placeholder="confirm password">
+							<input type="submit" name="" value="Signup">
+							<div class="signup">Already have?<a href="login.html" onclick="toggleform();">Sign in!</a></div>
+						</form>
+					</div>
+					<div class="imgbox"><img src="img2.jpg"></div>
+				 </div>
+					</div>
+			</section>
+			<script type="text/javascript">
+			function toggleform()
+			{
+				var container = document.queryselector('.container');
+				container.classlist.toggle('active')
+			}
+		</script>
+		</body>
+</html>
